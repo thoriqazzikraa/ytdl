@@ -1,405 +1,422 @@
 const axios = require("axios");
 const convertSec = require("./function");
-const fetch = require("node-fetch")
+const fetch = require("node-fetch");
 
 async function yt(url) {
-  const _0x457318 = _0xe705;
-  function _0xe705(_0x31d3fb, _0x45e80d) {
-    const _0x430b9e = _0x278f();
-    return (
-      (_0xe705 = function (_0x5ac2ce, _0x33273b) {
-        _0x5ac2ce = _0x5ac2ce - (-0xd5c + 0x979 + 0x555);
-        let _0x42c25e = _0x430b9e[_0x5ac2ce];
-        return _0x42c25e;
-      }),
-      _0xe705(_0x31d3fb, _0x45e80d)
-    );
+  function _0x49ad() {
+    const _0x483d4a = [
+      "https://ww",
+      "6hOsmED",
+      "applicatio",
+      "5IwLqaF",
+      "184047NrkcjO",
+      "PostmanRun",
+      "5449843zrtHUG",
+      "time/7.32.",
+      "372NrjCVT",
+      "1569465coOhMk",
+      "n/x-www-fo",
+      "post",
+      "rm-urlenco",
+      "2990802GcZxOH",
+      "28787DRJtXb",
+      "30ZNUoob",
+      "w.y2mate.c",
+      "99scvJad",
+      "3721680nnBaMp",
+      "jax",
+      "67604VZIMBE",
+      "om/mates/a",
+      "home",
+      "nalyzeV2/a",
+      "ded",
+    ];
+    _0x49ad = function () {
+      return _0x483d4a;
+    };
+    return _0x49ad();
   }
-  (function (_0x15a0e6, _0x45089e) {
-    const _0xd9a9d1 = _0xe705,
-      _0x3e64b8 = _0x15a0e6();
+  const _0x1a56f2 = _0x5143;
+  (function (_0x138abb, _0x5945a4) {
+    const _0x3bc494 = _0x5143,
+      _0x13ffa1 = _0x138abb();
     while (!![]) {
       try {
-        const _0x922e16 =
-          (parseInt(_0xd9a9d1(0x17d)) /
-            (-0x2064 + -0x128 * -0x18 + 0x1d * 0x29)) *
-            (parseInt(_0xd9a9d1(0x185)) /
-              (0xbf6 * -0x2 + 0xf16 * 0x1 + -0x4 * -0x236)) +
-          parseInt(_0xd9a9d1(0x179)) / (-0xc6a + -0x2084 + 0xc3 * 0x3b) +
-          parseInt(_0xd9a9d1(0x176)) / (-0x2173 + 0x1e2d + 0x34a) +
-          (parseInt(_0xd9a9d1(0x178)) / (-0x2578 + 0xd3 * 0x1c + 0xe69)) *
-            (parseInt(_0xd9a9d1(0x175)) /
-              (0x3d * 0x6f + 0x18eb + 0x1 * -0x3358)) +
-          -parseInt(_0xd9a9d1(0x17c)) / (0x13a0 + -0x17 * -0x4f + -0x1ab2) +
-          (parseInt(_0xd9a9d1(0x181)) /
-            (-0x4 * 0x47 + -0xf2 * -0x13 + -0x10d2)) *
-            (parseInt(_0xd9a9d1(0x186)) /
-              (-0x1145 + -0x1 * -0x217e + -0x1030)) +
-          -parseInt(_0xd9a9d1(0x17a)) /
-            (-0x2 * -0x1292 + 0x1ea9 + -0x53 * 0xd1);
-        if (_0x922e16 === _0x45089e) break;
-        else _0x3e64b8["push"](_0x3e64b8["shift"]());
-      } catch (_0x2bb8bb) {
-        _0x3e64b8["push"](_0x3e64b8["shift"]());
+        const _0x11cd48 =
+          (parseInt(_0x3bc494(0x82)) / (0x151 * 0xb + 0x24e3 + -0x335d)) *
+            (-parseInt(_0x3bc494(0x7f)) / (0xb23 + -0x1e92 + 0x1371)) +
+          (-parseInt(_0x3bc494(0x8f)) / (0x13e9 + -0x1efc * 0x1 + 0xb16)) *
+            (-parseInt(_0x3bc494(0x92)) / (0x19e5 + 0x2c7 * 0x9 + -0x32e0)) +
+          (parseInt(_0x3bc494(0x81)) / (0x1113 + -0x73d + -0x9d1)) *
+            (-parseInt(_0x3bc494(0x8b)) /
+              (-0x2 * 0x1034 + -0xa29 + 0x1 * 0x2a97)) +
+          parseInt(_0x3bc494(0x84)) / (-0x234f + 0x4b * -0x83 + -0x71 * -0xa7) +
+          -parseInt(_0x3bc494(0x90)) / (-0x712 + -0x1625 + 0x1d3f) +
+          (parseInt(_0x3bc494(0x87)) / (0x241e + -0x3ae + -0x7 * 0x4a1)) *
+            (parseInt(_0x3bc494(0x8d)) / (0x611 + -0x249f + 0x1e98)) +
+          (parseInt(_0x3bc494(0x8c)) / (0x3af * 0x9 + -0x1617 + -0x1 * 0xb05)) *
+            (parseInt(_0x3bc494(0x86)) /
+              (0x2 * 0x823 + 0x1b5d + -0x2b97 * 0x1));
+        if (_0x11cd48 === _0x5945a4) break;
+        else _0x13ffa1["push"](_0x13ffa1["shift"]());
+      } catch (_0x15f71d) {
+        _0x13ffa1["push"](_0x13ffa1["shift"]());
       }
     }
-  })(_0x278f, -0xfaf17 + -0x48791 + 0x1f5a31);
-  function _0x278f() {
-    const _0x3d7c2f = [
-      "/ajax/sear",
-      "8TLWick",
-      "ch?hl=id",
-      "PostmanRun",
-      "rm-urlenco",
-      "1754hpQDws",
-      "9207279pmSFGt",
-      "https://to",
-      "mp3.cc/api",
-      "n/x-www-fo",
-      "109626RLvGsl",
-      "1126224NSGyNr",
-      "ded",
-      "335LspkDj",
-      "451791QxzKsp",
-      "24357950bUdBDy",
-      "time/7.32.",
-      "161630bRAsxw",
-      "581wDjIlv",
-      "post",
-      "applicatio",
-    ];
-    _0x278f = function () {
-      return _0x3d7c2f;
-    };
-    return _0x278f();
-  }
+  })(_0x49ad, 0x1fedd + 0x9038a + -0x4873d);
   const { data } = await axios(
-    _0x457318(0x172) + _0x457318(0x173) + _0x457318(0x180) + _0x457318(0x182),
+    _0x1a56f2(0x7e) +
+      _0x1a56f2(0x8e) +
+      _0x1a56f2(0x93) +
+      _0x1a56f2(0x95) +
+      _0x1a56f2(0x91),
     {
-      method: _0x457318(0x17e),
-      data: { query: url },
+      method: _0x1a56f2(0x89),
+      data: { k_query: url, k_page: _0x1a56f2(0x94), hl: "id", q_auto: 0x0 },
       headers: {
         "content-type":
-          _0x457318(0x17f) +
-          _0x457318(0x174) +
-          _0x457318(0x184) +
-          _0x457318(0x177),
-        "user-agent": _0x457318(0x183) + _0x457318(0x17b) + "2",
+          _0x1a56f2(0x80) + _0x1a56f2(0x88) + _0x1a56f2(0x8a) + _0x1a56f2(0x96),
+        "user-agent": _0x1a56f2(0x83) + _0x1a56f2(0x85) + "2",
       },
     }
   );
+  function _0x5143(_0x572da8, _0xf8a224) {
+    const _0x226adf = _0x49ad();
+    return (
+      (_0x5143 = function (_0x10b2e4, _0x4efdf5) {
+        _0x10b2e4 = _0x10b2e4 - (0x20e * -0x2 + -0xd38 * -0x2 + -0x56 * 0x41);
+        let _0x13b61a = _0x226adf[_0x10b2e4];
+        return _0x13b61a;
+      }),
+      _0x5143(_0x572da8, _0xf8a224)
+    );
+  }
   return data;
 }
 
 async function ytmp3(url) {
-  function _0xf51c(_0x2b0cf4, _0x594e3e) {
-    const _0x141f78 = _0x3a99();
+  function _0x4d70() {
+    const _0x43b3c3 = [
+      "11ENzeVC",
+      "Can\x27t\x20get\x20",
+      "735870SphEKq",
+      "Kbps",
+      "PostmanRun",
+      "568AACJUy",
+      "ftype",
+      "ytimg.com/",
+      "metadata",
+      "fquality",
+      "ault.jpg",
+      ".jpg",
+      "6HaFQpV",
+      "title",
+      "om/mates/c",
+      "152eETBTI",
+      "266688iXQleC",
+      "https://i.",
+      "rm-urlenco",
+      "mp3",
+      "log",
+      "onvertV2/i",
+      "1231083adIvPU",
+      "dlink",
+      "https://ww",
+      "646540riWxnx",
+      "n/x-www-fo",
+      "w.y2mate.c",
+      "/hqdefault",
+      "15VsyJEg",
+      "links",
+      "ded",
+      "/maxresdef",
+      "297560nXbvFv",
+      "vid",
+      "mp3128",
+      "272237WtsoBW",
+      "post",
+      "time/7.32.",
+      "ndex",
+      "vi/",
+      "applicatio",
+      "size",
+    ];
+    _0x4d70 = function () {
+      return _0x43b3c3;
+    };
+    return _0x4d70();
+  }
+  const _0x209543 = _0x4911;
+  function _0x4911(_0x2dd20f, _0x3aef50) {
+    const _0x89d078 = _0x4d70();
     return (
-      (_0xf51c = function (_0xa48f53, _0x49067a) {
-        _0xa48f53 = _0xa48f53 - (-0xca * 0x2b + 0x195d + -0x19 * -0x67);
-        let _0x1216d6 = _0x141f78[_0xa48f53];
-        return _0x1216d6;
+      (_0x4911 = function (_0x5e675c, _0x18be8e) {
+        _0x5e675c = _0x5e675c - (0x1fd * -0x3 + -0x334 + 0x9b0);
+        let _0x1550dc = _0x89d078[_0x5e675c];
+        return _0x1550dc;
       }),
-      _0xf51c(_0x2b0cf4, _0x594e3e)
+      _0x4911(_0x2dd20f, _0x3aef50)
     );
   }
-  const _0x54e0cd = _0xf51c;
-  (function (_0xc58883, _0x27f457) {
-    const _0xb4fd99 = _0xf51c,
-      _0x11ca7d = _0xc58883();
+  (function (_0x1ed07e, _0x2147c6) {
+    const _0xaf2269 = _0x4911,
+      _0xf331e8 = _0x1ed07e();
     while (!![]) {
       try {
-        const _0x4fcf73 =
-          parseInt(_0xb4fd99(0x191)) / (0xf78 + -0x260a + 0x1693) +
-          -parseInt(_0xb4fd99(0x17f)) / (0x29 * 0x2c + 0x1 * -0x1a7a + 0x1370) +
-          (-parseInt(_0xb4fd99(0x192)) / (0x2323 + -0x1182 + -0x119e)) *
-            (-parseInt(_0xb4fd99(0x189)) /
-              (0x1d * -0x90 + -0x14ae + -0x2 * -0x1281)) +
-          (-parseInt(_0xb4fd99(0x188)) / (0x1332 + 0x842 + -0x1b6f)) *
-            (parseInt(_0xb4fd99(0x19c)) /
-              (0x1 * 0xc1b + -0x1 * -0x5eb + 0x12 * -0x100)) +
-          (parseInt(_0xb4fd99(0x184)) / (0x89 * 0xe + -0x5e * 0x5f + 0x1b6b)) *
-            (parseInt(_0xb4fd99(0x183)) / (0x19 * -0x11 + -0x157a + 0x172b)) +
-          -parseInt(_0xb4fd99(0x18d)) / (-0xba4 + -0x2135 + 0x2ce2) +
-          parseInt(_0xb4fd99(0x19d)) / (0x104 + 0x3 * 0xa5b + 0x1 * -0x200b);
-        if (_0x4fcf73 === _0x27f457) break;
-        else _0x11ca7d["push"](_0x11ca7d["shift"]());
-      } catch (_0x4d66b9) {
-        _0x11ca7d["push"](_0x11ca7d["shift"]());
+        const _0x5ae3b2 =
+          (-parseInt(_0xaf2269(0x86)) /
+            (-0x1 * -0x1c53 + -0x8cb * -0x2 + -0x2de8)) *
+            (parseInt(_0xaf2269(0xa7)) /
+              (-0x385 * -0x5 + 0xa * -0x14f + -0x481)) +
+          -parseInt(_0xaf2269(0xa4)) / (0x1613 + -0x2300 + 0xcf0) +
+          (-parseInt(_0xaf2269(0x98)) /
+            (-0x1 * 0x1841 + -0x1d4b * -0x1 + 0x283 * -0x2)) *
+            (-parseInt(_0xaf2269(0x94)) / (0x1f72 + 0x229d + -0x420a)) +
+          (-parseInt(_0xaf2269(0xae)) /
+            (0x1 * -0xbb7 + -0x248e + -0xd * -0x3b7)) *
+            (-parseInt(_0xaf2269(0x9b)) / (-0x16b7 + -0xede + 0x259c)) +
+          -parseInt(_0xaf2269(0x87)) / (-0x1872 + 0x22ee + -0xa74) +
+          parseInt(_0xaf2269(0x8d)) / (-0x1ec9 + 0x2174 + -0x2a2) +
+          (parseInt(_0xaf2269(0x90)) /
+            (0x15d * -0x1a + -0x1 * -0x106a + -0x1 * -0x1312)) *
+            (parseInt(_0xaf2269(0xa2)) / (0x1 * -0xea7 + -0x17af + 0x2661));
+        if (_0x5ae3b2 === _0x2147c6) break;
+        else _0xf331e8["push"](_0xf331e8["shift"]());
+      } catch (_0x106751) {
+        _0xf331e8["push"](_0xf331e8["shift"]());
       }
     }
-  })(_0x3a99, 0x3ffeb + 0x1763 * 0x81 + 0x3a653 * -0x1);
+  })(_0x4d70, -0x225f6 + -0x2e2a1 + 0x73223);
   try {
     const info = await yt(url),
       { data } = await axios(
-        _0x54e0cd(0x18c) +
-          _0x54e0cd(0x193) +
-          _0x54e0cd(0x1a4) +
-          _0x54e0cd(0x181),
+        _0x209543(0x8f) +
+          _0x209543(0x92) +
+          _0x209543(0x85) +
+          _0x209543(0x8c) +
+          _0x209543(0x9e),
         {
-          method: _0x54e0cd(0x19e),
+          method: _0x209543(0x9c),
           data: {
-            vid: info[_0x54e0cd(0x18a)],
-            k: info[_0x54e0cd(0x18f)][_0x54e0cd(0x182)][_0x54e0cd(0x1a3)]["k"],
+            vid: info[_0x209543(0x99)],
+            k: info[_0x209543(0x95)][_0x209543(0x8a)][_0x209543(0x9a)]["k"],
           },
           headers: {
             "content-type":
-              _0x54e0cd(0x18e) +
-              _0x54e0cd(0x196) +
-              _0x54e0cd(0x1a6) +
-              _0x54e0cd(0x180),
-            "user-agent": _0x54e0cd(0x195) + _0x54e0cd(0x197) + "2",
+              _0x209543(0xa0) +
+              _0x209543(0x91) +
+              _0x209543(0x89) +
+              _0x209543(0x96),
+            "user-agent": _0x209543(0xa6) + _0x209543(0x9d) + "2",
           },
         }
       ),
       thumb =
-        _0x54e0cd(0x1a2) +
-        _0x54e0cd(0x19b) +
-        _0x54e0cd(0x19a) +
-        info[_0x54e0cd(0x18a)] +
-        (_0x54e0cd(0x190) + _0x54e0cd(0x1a0)),
+        _0x209543(0x88) +
+        _0x209543(0xa9) +
+        _0x209543(0x9f) +
+        info[_0x209543(0x99)] +
+        (_0x209543(0x97) + _0x209543(0xac)),
       { status } = await fetch(thumb);
-    if (status !== -0x39f * -0x3 + -0x3 * 0x51 + 0x14e * -0x7)
+    if (status !== 0x16c8 + -0x1 * -0x156a + -0x2b6a)
       var thumbImg =
-        _0x54e0cd(0x1a2) +
-        _0x54e0cd(0x19b) +
-        _0x54e0cd(0x19a) +
-        info[_0x54e0cd(0x18a)] +
-        (_0x54e0cd(0x185) + _0x54e0cd(0x198));
+        _0x209543(0x88) +
+        _0x209543(0xa9) +
+        _0x209543(0x9f) +
+        info[_0x209543(0x99)] +
+        (_0x209543(0x93) + _0x209543(0xad));
     else var thumbImg = thumb;
     const result = {
       status: !![],
-      title: data[_0x54e0cd(0x19f)],
+      title: data[_0x209543(0xaf)],
       channel: info["a"],
       duration: convertSec(info["t"]),
-      size: info[_0x54e0cd(0x18f)][_0x54e0cd(0x182)][_0x54e0cd(0x1a3)][
-        _0x54e0cd(0x17e)
+      size: info[_0x209543(0x95)][_0x209543(0x8a)][_0x209543(0x9a)][
+        _0x209543(0xa1)
       ],
-      type: data[_0x54e0cd(0x18b)],
-      quality: data[_0x54e0cd(0x186)] + _0x54e0cd(0x1a1),
-      id: info[_0x54e0cd(0x18a)],
+      type: data[_0x209543(0xa8)],
+      quality: data[_0x209543(0xab)] + _0x209543(0xa5),
+      id: info[_0x209543(0x99)],
       thumbnail: thumbImg,
-      url: data[_0x54e0cd(0x194)],
+      url: data[_0x209543(0x8e)],
+    };
+    return result;
+  } catch {
+    const result = { status: ![], message: _0x209543(0xa3) + _0x209543(0xaa) };
+    return console[_0x209543(0x8b)](result), result;
+  }
+}
+
+async function ytmp4(url, quality) {
+  var _0x32809f = _0x1a51;
+  (function (_0x4370d1, _0x35ad42) {
+    var _0x5362bb = _0x1a51,
+      _0xf033f8 = _0x4370d1();
+    while (!![]) {
+      try {
+        var _0x39010b =
+          (parseInt(_0x5362bb(0x1fe)) / (0xd6 + 0xde3 + -0xeb8)) *
+            (parseInt(_0x5362bb(0x1f1)) / (-0x1c50 + -0x147d + -0xf * -0x341)) +
+          parseInt(_0x5362bb(0x1fa)) /
+            (-0x2 * -0x121a + -0x8d * 0xa + -0x1eaf) +
+          -parseInt(_0x5362bb(0x20c)) /
+            (-0x6 * -0x52b + 0x136b * 0x1 + -0x3269) +
+          (-parseInt(_0x5362bb(0x1f2)) / (0x89 * -0x1d + 0x235b + -0x13d1)) *
+            (-parseInt(_0x5362bb(0x1f5)) /
+              (-0x1 * 0x1061 + -0x244 * 0x11 + 0x36eb)) +
+          parseInt(_0x5362bb(0x207)) / (-0x340 + 0x177a + -0x1433) +
+          (parseInt(_0x5362bb(0x212)) / (0x229e + -0x1940 + 0xa * -0xef)) *
+            (parseInt(_0x5362bb(0x20b)) / (-0x29 * 0xa5 + -0x62c + 0x20a2)) +
+          (parseInt(_0x5362bb(0x1ff)) /
+            (0x2 * 0x50f + -0x2641 + -0x1c2d * -0x1)) *
+            (-parseInt(_0x5362bb(0x205)) /
+              (0xf57 + 0xf7 * 0x1b + 0x49 * -0x91));
+        if (_0x39010b === _0x35ad42) break;
+        else _0xf033f8["push"](_0xf033f8["shift"]());
+      } catch (_0x61c8bb) {
+        _0xf033f8["push"](_0xf033f8["shift"]());
+      }
+    }
+  })(_0x44f8, -0x1152e3 + -0xd5c5c * -0x2 + 0x52961);
+  function _0x1a51(_0x13eda3, _0x53e908) {
+    var _0x90b629 = _0x44f8();
+    return (
+      (_0x1a51 = function (_0x4278cc, _0x3806ba) {
+        _0x4278cc = _0x4278cc - (-0x8 * -0x33d + -0x132d + -0x1 * 0x4ca);
+        var _0x23581f = _0x90b629[_0x4278cc];
+        return _0x23581f;
+      }),
+      _0x1a51(_0x13eda3, _0x53e908)
+    );
+  }
+  try {
+    const info = await yt(url);
+    if (quality === -0xe39 + -0x1287 + 0x24f8 * 0x1)
+      var res = -0x156f + 0x213c + -0xb44;
+    else {
+      if (quality === 0x40e + -0xba6 + -0x18 * -0x6f)
+        var res = 0x37 * -0x36 + -0x1 * -0xb17 + 0x99;
+      else {
+        if (quality === -0x185 * 0x10 + 0x24b + -0x1 * -0x17e5)
+          var res = -0x1284 * 0x1 + -0x1b * -0x59 + 0x9a8;
+        else {
+          if (
+            quality === -0x2173 + -0x806 + 0x2ae1 ||
+            quality === undefined ||
+            quality === -0xb87 + -0x10f * 0x2 + 0xda5
+          )
+            var res = -0x17db * 0x1 + -0x1 * 0x25d9 + 0x3dc6;
+        }
+      }
+    }
+    const { data } = await axios(
+        _0x32809f(0x219) +
+          _0x32809f(0x209) +
+          _0x32809f(0x1fc) +
+          _0x32809f(0x1fd) +
+          _0x32809f(0x204),
+        {
+          method: _0x32809f(0x1f4),
+          data: {
+            vid: info[_0x32809f(0x1f8)],
+            k: info[_0x32809f(0x208)][_0x32809f(0x20e)]["" + res]["k"],
+          },
+          headers: {
+            "content-type":
+              _0x32809f(0x200) +
+              _0x32809f(0x20a) +
+              _0x32809f(0x1f6) +
+              _0x32809f(0x20f),
+            "user-agent": _0x32809f(0x203) + _0x32809f(0x1f9) + "2",
+          },
+        }
+      ),
+      thumb =
+        _0x32809f(0x20d) +
+        _0x32809f(0x213) +
+        _0x32809f(0x1f3) +
+        info[_0x32809f(0x1f8)] +
+        (_0x32809f(0x215) + _0x32809f(0x211)),
+      { status } = await fetch(thumb);
+    if (status !== -0x2 * -0xd46 + 0x2 * -0x773 + -0xd * 0xd6)
+      var thumbImg =
+        _0x32809f(0x20d) +
+        _0x32809f(0x213) +
+        _0x32809f(0x1f3) +
+        info[_0x32809f(0x1f8)] +
+        (_0x32809f(0x217) + _0x32809f(0x1fb));
+    else var thumbImg = thumb;
+    const result = {
+      status: !![],
+      title: data[_0x32809f(0x1f7)],
+      channel: info["a"],
+      duration: convertSec(info["t"]),
+      size: info[_0x32809f(0x208)][_0x32809f(0x20e)]["" + res][
+        _0x32809f(0x202)
+      ],
+      type: data[_0x32809f(0x210)],
+      quality: data[_0x32809f(0x216)],
+      id: info[_0x32809f(0x1f8)],
+      thumbnail: thumbImg,
+      url: decodeURIComponent(data[_0x32809f(0x201)]),
     };
     return result;
   } catch {
     const result = {
       status: ![],
-      message: _0x54e0cd(0x1a5) + _0x54e0cd(0x187),
+      message: _0x32809f(0x206) + _0x32809f(0x218),
     };
-    return console[_0x54e0cd(0x199)](result), result;
+    return console[_0x32809f(0x214)](result), result;
   }
-  function _0x3a99() {
-    const _0x55c04d = [
-      "Can\x27t\x20get\x20",
-      "rm-urlenco",
-      "size",
-      "1647298KLUpGO",
-      "ded",
-      "ert",
-      "mp3",
-      "4729736XEzpmg",
-      "7wxjpic",
-      "/hqdefault",
-      "fquality",
-      "metadata",
-      "5jjidJL",
-      "16oXjRMa",
-      "vid",
-      "ftype",
-      "https://to",
-      "12113532JETeEd",
-      "applicatio",
-      "links",
-      "/maxresdef",
-      "1308358RHFTHB",
-      "1176429uzeiLJ",
-      "mp3.cc/api",
-      "dlink",
-      "PostmanRun",
-      "n/x-www-fo",
-      "time/7.32.",
-      ".jpg",
-      "log",
-      "vi/",
-      "ytimg.com/",
-      "4429650vUZWaP",
-      "2349840uLJySM",
-      "post",
-      "title",
+  function _0x44f8() {
+    var _0x28e3f2 = [
       "ault.jpg",
-      "Kbps",
+      "192PtoEOC",
+      "ytimg.com/",
+      "log",
+      "/maxresdef",
+      "fquality",
+      "/hqdefault",
+      "metadata",
+      "https://ww",
+      "41074EsLPOc",
+      "75Tvbidf",
+      "vi/",
+      "post",
+      "418308cSMlTw",
+      "rm-urlenco",
+      "title",
+      "vid",
+      "time/7.32.",
+      "3909396iEBQzQ",
+      ".jpg",
+      "om/mates/c",
+      "onvertV2/i",
+      "71EkBSBS",
+      "310tFBsxk",
+      "applicatio",
+      "dlink",
+      "size",
+      "PostmanRun",
+      "ndex",
+      "1159543QuVfMH",
+      "Can\x27t\x20get\x20",
+      "8115597wcFeUm",
+      "links",
+      "w.y2mate.c",
+      "n/x-www-fo",
+      "181557vwtsaD",
+      "4914332CBQaAS",
       "https://i.",
-      "mp3128",
-      "/ajax/conv",
+      "mp4",
+      "ded",
+      "ftype",
     ];
-    _0x3a99 = function () {
-      return _0x55c04d;
+    _0x44f8 = function () {
+      return _0x28e3f2;
     };
-    return _0x3a99();
+    return _0x44f8();
   }
 }
 
-async function ytmp4(url, quality) {
-  var _0x30435b = _0x2dcf;
-  (function (_0x134510, _0x352a92) {
-    var _0x2f773b = _0x2dcf,
-      _0x1f36f2 = _0x134510();
-    while (!![]) {
-      try {
-        var _0x4bf680 =
-          (-parseInt(_0x2f773b(0x6e)) / (0xab3 + 0x1 * -0x1844 + 0xd92)) *
-            (parseInt(_0x2f773b(0x88)) / (-0x1995 + -0x3e1 + 0x1d78)) +
-          parseInt(_0x2f773b(0x83)) /
-            (-0xaf7 * 0x1 + -0x1 * 0x1101 + 0x1bfb * 0x1) +
-          (-parseInt(_0x2f773b(0x66)) / (-0x14f * -0x6 + -0x255f + 0x1d89)) *
-            (parseInt(_0x2f773b(0x69)) / (-0x23e8 + 0x55e + 0x1e8f)) +
-          (parseInt(_0x2f773b(0x79)) / (0xce * 0x29 + -0x1aea + -0x60e)) *
-            (-parseInt(_0x2f773b(0x8b)) /
-              (0x281 * 0xb + -0x1 * 0x24f7 + 0x973)) +
-          (-parseInt(_0x2f773b(0x6c)) / (0x11b7 + 0x15bb + -0x276a)) *
-            (parseInt(_0x2f773b(0x6a)) / (-0x1626 + 0x1d96 + -0x767)) +
-          -parseInt(_0x2f773b(0x84)) /
-            (-0x15bc + 0x1 * -0x389 + -0x194f * -0x1) +
-          (parseInt(_0x2f773b(0x81)) /
-            (0x7e5 * -0x3 + -0x1e4f + -0x3 * -0x1203)) *
-            (parseInt(_0x2f773b(0x7d)) / (0x21e6 + -0x199 + 0x17 * -0x167));
-        if (_0x4bf680 === _0x352a92) break;
-        else _0x1f36f2["push"](_0x1f36f2["shift"]());
-      } catch (_0x5e2849) {
-        _0x1f36f2["push"](_0x1f36f2["shift"]());
-      }
-    }
-  })(_0x3983, -0x1 * 0x1ec5 + 0x5a62e + 0x73d2);
-  function _0x2dcf(_0x47ecac, _0x15f850) {
-    var _0x13b996 = _0x3983();
-    return (
-      (_0x2dcf = function (_0x23d25f, _0x13e62e) {
-        _0x23d25f = _0x23d25f - (-0x1 * 0x17f2 + 0x1 * 0xd + 0x184a);
-        var _0x4539ca = _0x13b996[_0x23d25f];
-        return _0x4539ca;
-      }),
-      _0x2dcf(_0x47ecac, _0x15f850)
-    );
-  }
-  try {
-    const info = await yt(url);
-    if (quality === 0x1a46 + -0x13f * 0x5 + -0x1 * 0xfd3)
-      var res = 0x219 * 0x2 + 0x1 * -0x99 + -0x4 * 0xc4;
-    else {
-      if (quality === -0x1 * 0x179e + 0xc4e + 0x2 * 0x710)
-        var res = 0xc82 + -0xee + 0x2 * -0x5bf;
-      else {
-        if (quality === -0xf7c + 0x1832 + 0x23 * -0x32)
-          var res = -0x1577 + -0x112f * -0x1 + -0x1 * -0x4cf;
-        else {
-          if (
-            quality === -0x1404 + -0x1105 + 0x2671 ||
-            quality === undefined ||
-            quality === 0x5f6 * 0x2 + 0x16b9 + 0x4f3 * -0x7
-          )
-            var res = 0xbf * -0x3 + -0x17f6 + 0x1a45;
-        }
-      }
-    }
-    const { data } = await axios(
-        _0x30435b(0x6b) + _0x30435b(0x7f) + _0x30435b(0x7a) + _0x30435b(0x74),
-        {
-          method: _0x30435b(0x7c),
-          data: {
-            vid: info[_0x30435b(0x6d)],
-            k: info[_0x30435b(0x70)][_0x30435b(0x77)]["" + res]["k"],
-          },
-          headers: {
-            "content-type":
-              _0x30435b(0x73) +
-              _0x30435b(0x67) +
-              _0x30435b(0x68) +
-              _0x30435b(0x85),
-            "user-agent": _0x30435b(0x87) + _0x30435b(0x71) + "2",
-          },
-        }
-      ),
-      thumb =
-        _0x30435b(0x86) +
-        _0x30435b(0x72) +
-        _0x30435b(0x82) +
-        info[_0x30435b(0x6d)] +
-        (_0x30435b(0x7e) + _0x30435b(0x8a)),
-      { status } = await fetch(thumb);
-    if (status !== -0x209a + -0x19d4 + 0x3b36)
-      var thumbImg =
-        _0x30435b(0x86) +
-        _0x30435b(0x72) +
-        _0x30435b(0x82) +
-        info[_0x30435b(0x6d)] +
-        (_0x30435b(0x76) + _0x30435b(0x89));
-    else var thumbImg = thumb;
-    const result = {
-      status: !![],
-      title: data[_0x30435b(0x75)],
-      channel: info["a"],
-      duration: convertSec(info["t"]),
-      size: info[_0x30435b(0x70)][_0x30435b(0x77)]["" + res][_0x30435b(0x80)],
-      type: data[_0x30435b(0x8c)],
-      quality: data[_0x30435b(0x65)],
-      id: info[_0x30435b(0x6d)],
-      thumbnail: thumbImg,
-      url: decodeURIComponent(data[_0x30435b(0x8d)]),
-    };
-    return result;
-  } catch {
-    const result = { status: ![], message: _0x30435b(0x78) + _0x30435b(0x6f) };
-    return console[_0x30435b(0x7b)](result), result;
-  }
-  function _0x3983() {
-    var _0x4ce59a = [
-      "/maxresdef",
-      "mp3.cc/api",
-      "size",
-      "22225731hXcHgw",
-      "vi/",
-      "1475793DQgSgS",
-      "7808300zHinXv",
-      "ded",
-      "https://i.",
-      "PostmanRun",
-      "30kmffNB",
-      ".jpg",
-      "ault.jpg",
-      "40593dSKwla",
-      "ftype",
-      "dlink",
-      "fquality",
-      "820IMvAiW",
-      "n/x-www-fo",
-      "rm-urlenco",
-      "13245ovjQjm",
-      "3420882JKSikE",
-      "https://to",
-      "8RfkOdX",
-      "vid",
-      "15781VjLFJk",
-      "metadata",
-      "links",
-      "time/7.32.",
-      "ytimg.com/",
-      "applicatio",
-      "ert",
-      "title",
-      "/hqdefault",
-      "mp4",
-      "Can\x27t\x20get\x20",
-      "186PShtLX",
-      "/ajax/conv",
-      "log",
-      "post",
-      "12JqIxJj",
-    ];
-    _0x3983 = function () {
-      return _0x4ce59a;
-    };
-    return _0x3983();
-  }
-}
 module.exports = { yt, ytmp3, ytmp4 };
