@@ -1,6 +1,6 @@
 {
   "name": "@nechlophomeriaa/ytdl",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Youtube downloader Audio/Video and custom quality of.video",
   "main": "index.js",
   "scripts": {

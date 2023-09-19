@@ -1,4 +1,5 @@
 const axios = require("axios");
+axios.defaults.headers.post["User-Agent"] = "WhatsApp/2.5.3"
 const convertSec = require("./function");
 const fetch = require("node-fetch");
 
