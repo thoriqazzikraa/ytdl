@@ -7,8 +7,13 @@
 # Usage
 
 ```js
-const { ytmp3, ytmp4 } = require("@nechlophomeriaa/ytdl")
+const { ytmp3, ytmp3v2, ytmp4, ytmp4v2 } = require("@nechlophomeriaa/ytdl")
 ```
+
+# Version
+
+Version 1 is for Indonesian Country
+Version 2 is for Global Using
 
 # Example Audio Downloader
 
