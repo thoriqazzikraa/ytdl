@@ -10,10 +10,9 @@
 const { ytmp3, ytmp3v2, ytmp4, ytmp4v2 } = require("@nechlophomeriaa/ytdl")
 ```
 
-# Version
+# Version 2
 
-Version 1 is for Indonesian Country
-Version 2 is for Global Using
+Use ytmp3v2 and ytmp4v2 if first version not works
 
 # Example Audio Downloader
 
