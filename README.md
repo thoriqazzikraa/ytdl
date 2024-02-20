@@ -26,6 +26,11 @@ Use ytmp3v2 and ytmp4v2 if first version not works
 # Example Video Downloader
 
 ```js
+/**
+* @param { String } url
+* @param { String | Number } quality
+*/
+
 ;async () => {
   const yt = await ytmp4("https://youtu.be/R95ILhksGt8", 1080) //If quality is undefined, it will resolve with 360p quality
   console.log(yt)
