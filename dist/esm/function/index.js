@@ -1,4 +1,4 @@
-module.exports = convertSec = (sec) => {
+export default function convertSec(sec) {
   var hours = Math.floor(sec / 3600)
   hours >= 1 ? (sec = sec - hours * 3600) : (hours = "00")
   var min = Math.floor(sec / 60)
