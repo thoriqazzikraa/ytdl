@@ -21,7 +21,7 @@ async function yt(url) {
  */
 async function ytmp3(url) {
   try {
-    const info = await ytv2(url)
+    const info = await yt(url)
     const { data } = await axios(`https://tomp3.cc/api/ajax/convert?hl=en`, {
       method: "post",
       data: {
@@ -72,7 +72,7 @@ async function ytmp3(url) {
  */
 async function ytmp4(url, quality) {
   try {
-    const info = await ytv2(url)
+    const info = await yt(url)
     if (!info.links.mp4["137"]) {
       var qualityHD = 299
     } else {
