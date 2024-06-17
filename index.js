@@ -125,13 +125,18 @@ async function ytmp4v2(url, quality) {
     } else {
       var qualityHD = 137
     }
-    if (quality == 1080) {
+    if (!info.links.mp4["22"]) {
+      var qualityMedium = 136
+    } else {
+      var qualityMedium = 22
+    }
+    if (quality === 1080) {
       var res = qualityHD
-    } else if (quality == 720) {
-      var res = 22
-    } else if (quality == 480) {
+    } else if (quality === 720) {
+      var res = qualityMedium
+    } else if (quality === 480) {
       var res = 135
-    } else if (quality == 360 || quality == undefined || quality == 0) {
+    } else if (quality === 360 || quality === undefined || quality === 0) {
       var res = 18
     }
     const { data } = await axios(`https://tomp3.cc/api/ajax/convert`, {
@@ -184,13 +189,18 @@ async function ytmp4(url, quality) {
     } else {
       var qualityHD = 137
     }
-    if (quality == 1080) {
+    if (!info.links.mp4["22"]) {
+      var qualityMedium = 136
+    } else {
+      var qualityMedium = 22
+    }
+    if (quality === 1080) {
       var res = qualityHD
-    } else if (quality == 720) {
-      var res = 22
-    } else if (quality == 480) {
+    } else if (quality === 720) {
+      var res = qualityMedium
+    } else if (quality === 480) {
       var res = 135
-    } else if (quality == 360 || quality == undefined || quality == 0) {
+    } else if (quality === 360 || quality === undefined || quality === 0) {
       var res = 18
     }
     const { data } = await axios(`https://www.y2mate.com/mates/convertV2/index`, {
