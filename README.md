@@ -7,12 +7,14 @@
 # Usage
 
 ```js
-const { ytmp3, ytmp3v2, ytmp4, ytmp4v2 } = require("@nechlophomeriaa/ytdl")
+// Common JS
+const { yt, ytmp3, ytmp4 } = require("@nechlophomeriaa/ytdl")
 ```
 
-# Version 2
-
-Use ytmp3v2 and ytmp4v2 if first version not works
+```js
+// ESM
+import { yt, ytmp3, ytmp4 } from "@nechlophomeriaa/ytdl"
+```
 
 # Example Audio Downloader
 
@@ -27,9 +29,9 @@ Use ytmp3v2 and ytmp4v2 if first version not works
 
 ```js
 /**
-* @param { String } url
-* @param { String | Number } quality
-*/
+ * @param { String } url
+ * @param { String | Number } quality
+ */
 
 ;async () => {
   const yt = await ytmp4("https://youtu.be/R95ILhksGt8", 1080) //If quality is undefined, it will resolve with 360p quality
